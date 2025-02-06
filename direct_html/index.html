@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>My Title!</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					First slide -- text only
+
+					<h3>H3 subheading</h3>
+					
+					<p>Some text in paragraph
+						<small>small text</small>
+					</p>
+				</section>
+				<section>
+					Lots of work to create in pure html... Let's try get Athena to make a slide
+				</section>
+				<section>
+				  <h2>Introduction to Web Development</h2>
+				  <p>Explore the basics of web development, including essential technologies and tools.</p>
+				  <div style="display: flex; justify-content: space-between;">
+				    <div>
+				      <ul>
+					<li>HTML: Structure of the web</li>
+					<li>CSS: Styling the web</li>
+					<li>JavaScript: Interactivity</li>
+				      </ul>
+				    </div>
+				    <div>
+				      <img src="https://picsum.photos/seed/any-seed/300/300" alt="Web Development Image" style="max-width: 100%;">
+				    </div>
+				  </div>
+				  <pre><code>&lt;script src="app.js"&gt;&lt;/script&gt;</code></pre>
+				</section>
+				<section> Contains nested slides
+					<section> nested slide 1</section>
+					<section> nested slide 2</section>
+					<!-- It does not work to nest further than this... -->
+				</section>
+			</div>
+		</div>
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
