@@ -37,7 +37,8 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # path: './direct_html'
-          path: "./embedded_markdown"
+          # path: "./embedded_markdown"
+          path: "./separate_markdown"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
