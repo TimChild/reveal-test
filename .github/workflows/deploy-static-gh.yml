@@ -38,7 +38,8 @@ jobs:
         with:
           # path: './direct_html'
           # path: "./embedded_markdown"
-          path: "./separate_markdown"
+          # path: "./separate_markdown"
+          path: "./usage-notes"
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
