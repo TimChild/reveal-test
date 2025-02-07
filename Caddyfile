@@ -1,0 +1,4 @@
+:9001 {
+	root * usage-notes
+	file_server
+}
